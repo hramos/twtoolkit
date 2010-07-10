@@ -149,6 +149,16 @@ static CGFloat kIndicatorSize = 40.0;
 }
 
 
+- (void)failWithError:(NSError*)error {
+	[self failWithTitle:[error localizedDescription]];
+}
+
+
+- (void)failAndDismissWithError:(NSError*)error {
+	[self failAndDismissWithTitle:[error localizedDescription]];
+}
+
+
 - (void)failWithTitle:(NSString *)aTitle {
 	self.successful = NO;
 	self.loading = NO;
