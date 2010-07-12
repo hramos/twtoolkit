@@ -149,12 +149,12 @@ static CGFloat kIndicatorSize = 40.0;
 }
 
 
-- (void)failWithError:(NSError*)error {
+- (void)failWithError:(NSError *)error {
 	[self failWithTitle:[error localizedDescription]];
 }
 
 
-- (void)failAndDismissWithError:(NSError*)error {
+- (void)failAndDismissWithError:(NSError *)error {
 	[self failAndDismissWithTitle:[error localizedDescription]];
 }
 

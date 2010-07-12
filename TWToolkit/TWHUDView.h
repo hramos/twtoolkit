@@ -25,8 +25,8 @@
 - (void)completeAndDismissWithTitle:(NSString *)aTitle;
 - (void)failWithTitle:(NSString *)aTitle;
 - (void)failAndDismissWithTitle:(NSString *)aTitle;
-- (void)failWithError:(NSError*)error;
-- (void)failAndDismissWithError:(NSError*)error;
+- (void)failWithError:(NSError *)error;
+- (void)failAndDismissWithError:(NSError *)error;
 - (void)dismiss;
 - (void)dismissAnimated:(BOOL)animated;
 
